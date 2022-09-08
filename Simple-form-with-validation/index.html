@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <script src="script.js"></script>
     <title>Document</title>
 </head>
 
@@ -27,15 +26,22 @@
                     <p>Must be a valid email address ex john.doe@mydomain.com</p>
 
                     <input type="password" name="password" placeholder="password">
-                    <p>Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters</p>
+                    <p>Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters)</p>
 
                     <input type="tel" name="telephone" placeholder="telephone">
-                    <p>Must be a numerical value , 11 digit</p>
+                    <p>Must be a numerical value , (11 digit)</p>
+
+                    <input type="text" name="slug" placeholder="profile slug">
+                    <p>Slug must contain only lowercase letters, numbers, and hyphens and be between 8-20 characters</p>
+
+                    <input type="submit" value="submit">
 
                 </form>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
